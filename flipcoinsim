@@ -28,3 +28,7 @@ else
 
 fi
 
+done
+
+echo "Tails count: "$tails "and Heads count :"$heads;O
+
