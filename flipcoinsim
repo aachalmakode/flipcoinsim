@@ -12,3 +12,10 @@ else
 	heads=$(($heads+1));
 	echo Heads Win;
 fi
+
+done
+
+echo "Number of times Tails won: "$tails
+
+echo "Number of times Heads won: "$heads
+
