@@ -19,3 +19,12 @@ echo "Number of times Tails won: "$tails
 
 echo "Number of times Heads won: "$heads
 
+if [ $heads -gt $tails ]
+then
+	echo "Heads won by: "$(( $heads-$tails ));
+
+else
+	echo "Tails won by: "$(( $tails-$heads ));
+
+fi
+
